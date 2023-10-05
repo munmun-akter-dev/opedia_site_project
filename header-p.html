@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .container-fluid{
+            padding: 0 15px ;
+        }
+        .parent{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            
+        }
+        a{
+            color: white;
+        }
+        .div1 ul{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: start;
+        }
+        .div2 ul{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        .div2 ul li a:hover{
+            color: rgb(226, 43, 89);
+            background-color: rgb(32, 149, 170);
+            transition: .3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="parent" >
+            <div class="div1">
+                <ul>
+                    <li><a href="#">info@opediatech@gmail.com</a></li>
+                    <li><a href="#">+65-91043241</a></li>
+                </ul>
+            </div>
+    
+            <div class="div2">
+    
+                <ul>
+                    <li><a href="#">fb</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">twitter</a></li>
+                    <li><a href="#">youtube</a></li>
+                    <li><a href="#">in</a></li>
+                </ul>
+    
+            </div>
+    
+        </div>
+    </div>
+</body>
+</html>
